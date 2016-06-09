@@ -1,0 +1,169 @@
+<html>
+<head>
+    <title>Basic Priestley-style timeline</title>
+    <style>
+        /*some basic CSS*/
+        .axis path{fill:none;stroke:none}
+        .axis line{fill:none;stroke:gray;stroke-width:1px;}
+        .axis text{fill:gray;stroke:none;}
+        text {text-anchor:middle}
+    </style>
+</head>
+<body>
+    <h1>A Specimen of a Priestley-style Timeline</h1>
+    <script src="js/d3.min.js"></script>
+    <script>
+    
+    var file="composers.csv"
+    var width=600,height=400;
+    var margin={top:50,bottom:30,left:20,right:20}
+    
+    //create svg element to hold graphics
+    var svg=d3.select("body").append("svg")
+        .attr("width",width)
+        .attr("height",height)
+    
+    //load the data
+    d3.csv(file,function(data){
+        
+        //define the date format used in the data
+        var parseDate = d3.time.format("%d/%m/%Y");
+        //parse the date information in the data
+        data.forEach(function(d) {
+                d.born=parseDate.parse(d.born)
+                d.died=parseDate.parse(d.died)
+        });
+        
+        //sort the lifespans into date-of-birth order - we will use this for the drawing order of the chart
+        data.sort(function(a, b){
+            return a.born-b.born;
+        });
+        
+        //find out the range of the dates
+        //first birth
+        var minDate=d3.min(data, function(d){
+            return d.born;
+        })
+        
+        //last death
+        var maxDate=d3.max(data, function(d){
+            return d.died;
+        })
+        
+        //calculate plot dimensions
+        var plotWidth = width-(margin.left+margin.right)
+        var plotHeight = height-(margin.top+margin.bottom)
+        
+        //create a scale for the timeline
+        var xScale = d3.time.scale()
+            .domain([minDate,maxDate])
+            .range([0,plotWidth])
+        
+        //a scale for vertical arrangement of each lifespan
+        var yScale = d3.scale.ordinal()
+            .domain(data.map(function(d){
+                return d.name;
+            }))
+            .rangeRoundBands([0,plotHeight],0.6);
+        
+        //define the chart's time axes
+        //primary axis - these will be labelled
+        var xAxis = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .ticks(4)
+            .tickSize(-plotHeight)
+    
+        //secondary axis - more ticks but no labels
+        var xAxis2 = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .tickFormat(d3.time.format(""))
+            .ticks(20)
+        
+        //draw the axes
+        svg.append("g")
+            .attr("class","axis")
+            .attr("transform","translate("+margin.left+","+(margin.top+plotHeight)+")")
+            .call(xAxis)
+        svg.append("g")
+            .attr("class","axis")
+            .attr("transform","translate("+margin.left+","+(margin.top+plotHeight)+")")
+            .call(xAxis2)
+        
+        //offset the textlabels
+        svg.selectAll(".axis text")
+            .attr("dy",20)
+        
+        //create chart geometry
+        //chart group
+        var chart = svg.append("g")
+            .attr("id","chart")
+            .attr("transform","translate("+margin.left+","+margin.top+")")
+        
+        //a row for each lifespan
+        var rowGroups = chart.append("g")
+            .attr("id","chart_rows")
+            .selectAll("g")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("transform",function(d,i){
+                return "translate(0,"+yScale(d.name)+")"
+            })
+        
+        rowGroups.each(function(d,i){
+                //create a rectangle to show time between birth and and death
+                d3.select(this).append("rect")
+                .attr("x",function(d){
+                    return xScale(d.born)
+                })
+                .attr("width",function(d){
+                    return xScale(d.died)-xScale(d.born)
+                })
+                .attr("height",yScale.rangeBand)
+                .attr("fill","black")
+                .attr("fill-opacity",0.8)
+                
+                //create a label with each composer's name on it - put it in middle of lifespan
+                d3.select(this).append("text")
+                    .attr("x",function(d){
+                        //calculate mid point of composer's life
+                        var midPoint = new Date((d.born.getTime() + d.died.getTime()) / 2);
+                        return xScale(midPoint)
+                     })
+                    .attr("y",function(d){
+                        return -1;
+                    })
+                    .text(function(d){
+                        return d.name
+                    })
+                
+                //label the first row with a key
+                if (i==0){
+                    var key = d3.select(this).append("g")
+                        .attr("class","axis")
+                    key.append("text")
+                        .attr("x",function(d){
+                            return xScale(d.born);
+                        })
+                        .attr("y",function(d){
+                            return -5;
+                        })
+                        .text("born")
+                    key.append("text")
+                        .attr("x",function(d){
+                            return xScale(d.died);
+                        })
+                        .attr("y",function(d){
+                            return -5;
+                        })
+                        .text("died")
+                }
+        })//end each row
+        
+    })//end
+    
+    </script>
+</body>
+</html>
