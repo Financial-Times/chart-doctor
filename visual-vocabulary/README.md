@@ -20,6 +20,8 @@ Emphasise variations (+/-) from a fixed reference point. Typically the reference
 
 A simple standard bar chart that can handle both negative and positive magnitude values.
 
+* Chart Doctor: [How the FT explained Brexit](https://www.ft.com/content/3bfc0aac-4ccd-11e6-88c5-db83e98a590a)
+
 #### Diverging stacked bar
 
 Perfect for presenting survey results which involve sentiment (eg disagree/neutral/agree).
@@ -40,6 +42,8 @@ Show the relationship between two or more variables. Be mindful that, unless you
 
 The standard way to show the relationship between two continuous variables, each of which has its own axis.
 
+* Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
+
 #### Line + Column
 
 A good way of showing the relationship between an amount (columns) and a rate (line) 
@@ -52,9 +56,13 @@ Usually used to show how the relationship between 2 variables has changed over t
 
 Like a scatterplot, but adds additional detail by sizing the circles according to a third variable
 
+* Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
+
 #### XY heatmap
 
 A good way of showing the patterns between 2 categories of data, less good at showing fine differences in amounts.
+
+* Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
 
 ### Ranking
 
@@ -128,13 +136,17 @@ Give emphasis to changing trends. These can be short (intra-day) movements or ex
 
 The standard way to show a changing time series. If data are irregular, consider markers to represent data points 
 
+* Chart Doctor: [A chart’s ability to mislead is off the scale](https://www.ft.com/content/3062d082-e3da-11e6-8405-9e5580d6e5fb)
+
 #### Column 
 
-Columns work well for showing change over time - but usually best with only one series of data at a time. 
+Columns work well for showing change over time - but usually best with only one series of data at a time.
+
+* Chart Doctor: [A chart’s ability to mislead is off the scale](https://www.ft.com/content/3062d082-e3da-11e6-8405-9e5580d6e5fb)
 
 #### Line + column 
 
-A good way of showing the relationship over time between an amount (columns) and a rate (line) 
+A good way of showing the relationship over time between an amount (columns) and a rate (line)
 
 #### Stock price 
 
@@ -162,7 +174,9 @@ A great way of showing temporal patterns (daily, weekly, monthly) – at the exp
 
 #### Priestley timeline 
 
-Great when date and duration are key elements of the story in the data. 
+Great when date and duration are key elements of the story in the data.
+
+* Chart Doctor: [Communicating with data: Timelines](https://www.ft.com/content/6f777c84-322b-11e6-ad39-3fee5ffe5b5b)
 
 #### Circle timeline 
 
@@ -264,6 +278,8 @@ An alternative to radar charts – again, the arrngement of the variables is imp
 
 Used only when precise locations orgeographical patterns in data aremore important to the reader thananything else. *Example FT uses:* Locator maps, population density,natural resource locations, naturaldisaster risk/impact, catchment areas,variation in election results
 
+* Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
+
 #### Basic choropleth (rate/ratio)
 
 The standard approach for putting data on a map – should always be rates rather than totals and use a sensible base geography
@@ -284,13 +300,19 @@ For showing areas of equal value on a map. Can use deviation colour schemes for 
 
 Converting each unit on a map to a regular and equally-sized shape – good for representing voting regions with equal value.
 
+* Chart Doctor: [How the FT explained Brexit](https://www.ft.com/content/3bfc0aac-4ccd-11e6-88c5-db83e98a590a)
+
 #### Scaled cartogram (value)
 
 Stretching and shrinking a map so that each area is sized according to a particular value.
 
+* Chart Doctor: [The search for a better US election map](https://www.ft.com/content/3685bf9e-a4cc-11e6-8b69-02899e8bd9d1)
+
 #### Dot density
 
 Used to show the location of individual events/locations – make sure to annotate any patterns the reader should see.
+
+* Chart Doctor: [The search for a better US election map](https://www.ft.com/content/3685bf9e-a4cc-11e6-8b69-02899e8bd9d1)
 
 #### Heat map
 
