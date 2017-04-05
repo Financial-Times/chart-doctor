@@ -1,6 +1,6 @@
 # Financial Times Visual Vocabulary
 
-A [poster](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf) and [web site](http://ft-interactive.github.io/visual-vocabulary/) to assist designers and journalists to select the optimal symbology for data visualisations, but the [Financial Times Visual Journlaism Team](https://www.ft.com/visual-journalism). Inspired by the [Graphic Continuum](https://policyviz.com/2014/09/09/graphic-continuum/) by Jon Schwabish and Severino Ribecca.
+A [poster](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf) and [web site](http://ft-interactive.github.io/visual-vocabulary/) to assist designers and journalists to select the optimal symbology for data visualisations, but the [Financial Times Visual Journalism Team](https://www.ft.com/visual-journalism). Inspired by the [Graphic Continuum](https://policyviz.com/2014/09/09/graphic-continuum/) by Jon Schwabish and Severino Ribecca.
 
 Read the [Chart Doctor](http://www.ft.com/chart-doctor) feature column for full background on why we made this: [Simple techniques for bridging the graphics language gap](https://www.ft.com/content/304419ec-63a3-11e6-8310-ecf0bddad227)
 
@@ -10,7 +10,12 @@ For D3 templates for producing many of these chart types in FT style, see our [V
 
 ## Related reading
 
-The full content of the poster, along with links to related material.
+The full content of the poster, along with links to related material. _This is a work in progress._
+
+### General
+
+* National Geographic: [Taking data visualisatoin from eye candy to efficiency](http://news.nationalgeographic.com/2015/09/150922-data-points-visualization-eye-candy-efficiency/)
+* Numeroteca: [Uses and abuses of data visualisations in mass media](http://numeroteca.org/2016/05/18/uses-and-abuses-of-data-visualizations-in-mass-media/)
 
 ### Deviation
 
@@ -46,7 +51,11 @@ The standard way to show the relationship between two continuous variables, each
 
 #### Line + Column
 
-A good way of showing the relationship between an amount (columns) and a rate (line) 
+A good way of showing the relationship between an amount (columns) and a rate (line)
+
+* Data Revelations: [Be Careful with Dual Axis Charts](http://www.datarevelations.com/be-careful-with-dual-axis-charts.html)
+* DataHero: [The Do’s and Don’ts of Dual Axis Charts](https://datahero.com/blog/2015/04/23/the-dos-and-donts-of-dual-axis-charts/)
+* Harvard Business Review: [Beware Spurious Correlations](https://hbr.org/2015/06/beware-spurious-correlations)
 
 #### Connected scatterplot
 
@@ -137,6 +146,7 @@ Give emphasis to changing trends. These can be short (intra-day) movements or ex
 The standard way to show a changing time series. If data are irregular, consider markers to represent data points 
 
 * Chart Doctor: [A chart’s ability to mislead is off the scale](https://www.ft.com/content/3062d082-e3da-11e6-8405-9e5580d6e5fb)
+* Emily Schuch: [How to Make a Line Chart that Doesn't Lie](http://emschuch.github.io/Planned-Parenthood/)
 
 #### Column 
 
@@ -194,6 +204,8 @@ Show how a single entity can bebroken down into its component elements. If the r
 
 A simple way of showing part-to-whole relationships but can be difficult to read with more than a few components.
 
+* Robert Kosera: [Stacked bars are the worst](https://eagereyes.org/techniques/stacked-bars-are-the-worst)
+
 #### Proportional stacked bar
 
 A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. 
@@ -201,6 +213,14 @@ A good way of showing the size and proportion of data at the same time – as lo
 #### Pie
 
 A common way of showing part-to-whole data – but be aware that it’s difficult to accurately compare the size of the segments.
+
+* Robert Kosara: [Ye olde pie chart debate](https://eagereyes.org/blog/2015/ye-olde-pie-chart-debate)
+* Robert Kosara: [Pie Charts – Unloved, Unstudied, and Misunderstood](https://eagereyes.org/talk/pie-charts-unloved-unstudied-and-misunderstood)
+* Robert Kosara: [An Illustrated Tour of the Pie Chart Study Results](https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results)
+* David Robinson: [How to replace a pie chart](http://varianceexplained.org/r/improving-pie-chart/)
+* Office for National Statistics: [The humble pie chart: part 1](https://blog.ons.digital/2017/01/24/the-humble-pie-chart-part1/)
+* Office for National Statistics: [The humble pie chart: part 2](https://blog.ons.digital/2017/02/23/the-humble-pie-chart-part2/)
+* Ian Spence: [No humble pie: The origins and usage of a statistical chart](http://www.psych.utoronto.ca/users/spence/Spence%202005.pdf)
 
 #### Donut
 
@@ -288,6 +308,8 @@ The standard approach for putting data on a map – should always be rates rathe
 
 Use for totals rather than rates – be wary that small differences in data will be hard to see.
 
+* Stephen Few: [What Can’t Be Built with Bricks?](https://www.perceptualedge.com/blog/?p=1627)
+
 #### Flow map
 
 For showing unambiguous movement across a map.
@@ -301,12 +323,14 @@ For showing areas of equal value on a map. Can use deviation colour schemes for 
 Converting each unit on a map to a regular and equally-sized shape – good for representing voting regions with equal value.
 
 * Chart Doctor: [How the FT explained Brexit](https://www.ft.com/content/3bfc0aac-4ccd-11e6-88c5-db83e98a590a)
+* 5W Blog: [The power of cartograms and creating them easily](https://5wvelascoblog.com/2016/10/27/the-power-of-cartograms-and-creating-them-easily/)
 
 #### Scaled cartogram (value)
 
 Stretching and shrinking a map so that each area is sized according to a particular value.
 
 * Chart Doctor: [The search for a better US election map](https://www.ft.com/content/3685bf9e-a4cc-11e6-8b69-02899e8bd9d1)
+* 5W Blog: [The power of cartograms and creating them easily](https://5wvelascoblog.com/2016/10/27/the-power-of-cartograms-and-creating-them-easily/)
 
 #### Dot density
 
@@ -318,9 +342,11 @@ Used to show the location of individual events/locations – make sure to annota
 
 Grid-based data values mapped with an intensity colour scale. As choropleth map – but not snapped to an admin/political unit.
 
+* 5W Blog: [The power of cartograms and creating them easily](https://5wvelascoblog.com/2016/10/27/the-power-of-cartograms-and-creating-them-easily/)
+
 ### Flow
 
-Show the reader volumes or intensityof movement between two or more states or conditions. These might belogical sequences or geographical locations. *Example FT uses:* Movement of funds, trade, migrants, lawsuits, information; relationship graphs.
+Show the reader volumes or intensity of movement between two or more states or conditions. These might belogical sequences or geographical locations. *Example FT uses:* Movement of funds, trade, migrants, lawsuits, information; relationship graphs.
 
 #### Sankey
 
@@ -337,6 +363,27 @@ A complex but powerful diagram which can illustrate 2-way flows (and net winner)
 #### Network
 
 Used for showing the strength and inter-connectedness of relationships of varying types.
+
+- - - 
+
+Todo:
+
+### Uncertainty
+
+* Scientific American: [Visualising uncertain weather](https://blogs.scientificamerican.com/sa-visual/visualizing-uncertain-weather/)
+* Oli Hawkins: [Animating uncertainty](http://olihawkins.com/2013/09/2)
+
+### Animation
+
+### Interactivity
+
+* Chart Doctor: [Why the FT creates so few clickable graphics](https://www.ft.com/content/c62b21c6-7feb-11e6-8e50-8ec15fb462f4)
+* Gregor Aisch: [In defense of interactive graphics](https://www.vis4.net/blog/posts/in-defense-of-interactive-graphics/)
+* Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe)
+
+### Map projections
+
+- - - 
 
 ## Licence
 
