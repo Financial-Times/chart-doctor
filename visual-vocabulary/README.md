@@ -46,6 +46,8 @@ The shaded area of these charts allows a balance to be shown – either against 
 
 Show the relationship between two or more variables. Be mindful that, unless you tell them otherwise, many readers will assume the relationships you show them to be causal (i.e. one causes the other). *Example FT uses:* Inflation & unemployment, income & life expectancy
 
+* Chart Doctor: [The German election and the trouble with correlation](https://www.ft.com/content/94e3acec-a767-11e7-ab55-27219df83c97)
+
 #### Scatterplot
 
 The standard way to show the relationship between two continuous variables, each of which has its own axis.
@@ -108,9 +110,13 @@ Lollipops draw more attention to the data value than standard bar/column and can
 
 Show values in a dataset and how often they occur. The shape (or ‘skew’) of a distribution can be a memorable way of highlighting the lack of uniformity or equality in the data. *Example FT uses:* Income distribution, population (age/sex) distribution
 
+* Joey Cherdarchuk: [Visualising distributions](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3)
+
 #### Histogram
 
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data
+
+* Aran Lunzer and Amelia McNamara: [Exploring histograms](http://tinlizzie.org/histograms/)
 
 #### Boxplot
 
@@ -305,6 +311,7 @@ An alternative to radar charts – again, the arrngement of the variables is imp
 Used only when precise locations orgeographical patterns in data aremore important to the reader thananything else. *Example FT uses:* Locator maps, population density,natural resource locations, naturaldisaster risk/impact, catchment areas,variation in election results
 
 * Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
+* Mapbox: [7 data visualization techniques for location](https://blog.mapbox.com/7-data-visualizations-techniques-for-location-544c558cc960)
 
 #### Basic choropleth (rate/ratio)
 
@@ -381,11 +388,13 @@ Todo:
 
 ### Animation
 
+* Evan Sinar: [Use Animation to Supercharge Data Visualization](https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd905a882ad4)
+
 ### Interactivity
 
 * Chart Doctor: [Why the FT creates so few clickable graphics](https://www.ft.com/content/c62b21c6-7feb-11e6-8e50-8ec15fb462f4)
 * Gregor Aisch: [In defense of interactive graphics](https://www.vis4.net/blog/posts/in-defense-of-interactive-graphics/)
-* Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe)
+* Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe))
 
 ### Map projections
 
