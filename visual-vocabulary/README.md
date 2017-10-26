@@ -221,6 +221,8 @@ A simple way of showing part-to-whole relationships but can be difficult to read
 
 A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. 
 
+* Chart Doctor: [How to apply Marimekko to data](https://www.ft.com/content/3ee98782-9149-11e7-a9e6-11d2f0ebb7f0)
+
 #### Pie
 
 A common way of showing part-to-whole data – but be aware that it’s difficult to accurately compare the size of the segments.
@@ -286,7 +288,9 @@ See above.
 
 #### Proportional stacked bar
 
-A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. 
+A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated.
+
+* Chart Doctor: [How to apply Marimekko to data](https://www.ft.com/content/3ee98782-9149-11e7-a9e6-11d2f0ebb7f0)
 
 #### Proportional symbol
 
@@ -368,6 +372,8 @@ Show the reader volumes or intensity of movement between two or more states or c
 
 Shows changes in flows from one condition to at least one other; good for tracing the eventual outcome of a complex process.
 
+* Chart Doctor: [Data visualisation: it is not all about technology](https://www.ft.com/content/aba6c58e-5a8e-11e7-9bc8-8055f264aa8b)
+
 #### Waterfall
 
 Designed to show the sequencing of data through a flow process, typically budgets. Can include +/- components.
@@ -391,6 +397,7 @@ Todo:
 
 ### Animation
 
+* Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * Evan Sinar: [Use Animation to Supercharge Data Visualization](https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd905a882ad4)
 
 ### Interactivity
