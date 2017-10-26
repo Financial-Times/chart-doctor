@@ -1,4 +1,4 @@
-![Financial Times Visual Vocabulary poster](chart-doctor/visual-vocabulary/Visual-vocabulary.pdf)
+![Financial Times Visual Vocabulary poster](poster.png)
 
 
 # Financial Times Visual Vocabulary
