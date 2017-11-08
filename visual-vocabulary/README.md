@@ -15,12 +15,18 @@ For D3 templates for producing many of these chart types in FT style, see our [V
 
 ## Related reading
 
-The full content of the poster, along with links to related material. _This is a work in progress._
+The full content of the poster, along with links to related material, including research and examples of best practice. _This is a work in progress._
 
 ### General
 
 * National Geographic: [Taking data visualisation from eye candy to efficiency](http://news.nationalgeographic.com/2015/09/150922-data-points-visualization-eye-candy-efficiency/)
+* William S. Cleveland and Robert McGill: [Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods](http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf)
+* Hadley Wickham: [A Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf)
+* Tracey L. Weissgerber et al: [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
 * Numeroteca: [Uses and abuses of data visualisations in mass media](http://numeroteca.org/2016/05/18/uses-and-abuses-of-data-visualizations-in-mass-media/)
+* Andy Cotgreave: [The inevitability of data visualization criticism](http://www.computerworld.com/article/3048315/data-analytics/the-inevitability-of-data-visualization-criticism.html)
+* Alberto Cairo: ["Our reader" won't understand something as complicated as that!](http://www.thefunctionalart.com/2016/05/our-reader-wont-understand-something-as.html)
+* Alberto Cairo: [Visualization's expanding vocabulary](http://www.thefunctionalart.com/2016/05/visualizations-expanding-vocabulary.html)
 
 ### Deviation
 
@@ -55,6 +61,11 @@ Show the relationship between two or more variables. Be mindful that, unless you
 The standard way to show the relationship between two continuous variables, each of which has its own axis.
 
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
+* Maarten Lambrechts: [7 reasons you should use dot graphs](http://www.maartenlambrechts.com/2015/05/03/to-the-point-7-reasons-you-should-use-dot-graphs.html)
+* Tim Brock: [Too Big Data: Coping with Overplotting](https://www.infragistics.com/community/blogs/tim_brock/archive/2015/04/21/too-big-data-coping-with-overplotting.aspx)
+* Sara Kehaulani Goo: [The art and science of the scatterplot](http://www.pewresearch.org/fact-tank/2015/09/16/the-art-and-science-of-the-scatterplot/)
+* Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
+* *Examples:* [_FT_](https://www.ft.com/content/1ce1a720-ce94-3c32-a689-8d2356388a1f)
 
 #### Line + Column
 
@@ -66,13 +77,18 @@ A good way of showing the relationship between an amount (columns) and a rate (l
 
 #### Connected scatterplot
 
-Usually used to show how the relationship between 2 variables has changed over time. 
+Usually used to show how the relationship between two variables has changed over time.
+
+* Robert Kosara: [The Connected Scatterplot for Presenting Paired Time Series](https://eagereyes.org/papers/the-connected-scatterplot-for-presenting-paired-time-series)
+* Data Revelations: [Be Careful with Dual Axis Charts](http://www.datarevelations.com/be-careful-with-dual-axis-charts.html)
+* *Examples:* [_Washington Post_](https://www.washingtonpost.com/apps/g/page/business/the-end-of-the-us-oil-boom-told-through-one-texas-companys-bust/1999/)
 
 #### Bubble
 
-Like a scatterplot, but adds additional detail by sizing the circles according to a third variable
+Like a scatterplot, but adds additional detail by sizing the circles according to a third variable 
 
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
+* *Examples:* [_FT_](https://ig.ft.com/managements-missing-women-data/)
 
 #### XY heatmap
 
@@ -144,6 +160,8 @@ A simple way of showing the change or range (min/max) of data across multiple ca
 
 Like dot strip plots, good for displaying all the data in a table,they work best when highlighting individual values.
 
+* Maarten Lambrechts: [Interactive strip plots for visualizing demographics](http://www.maartenlambrechts.com/2015/11/30/interactive-strip-plots-for-visualizing-demographics.html)
+
 #### Cumulative curve
 
 A good way of showing how unequal a distribution is: y axis is always cumulative frequency, x axis is always a measure.
@@ -152,11 +170,16 @@ A good way of showing how unequal a distribution is: y axis is always cumulative
 
 Give emphasis to changing trends. These can be short (intra-day) movements or extended series traversing decades or centuries. Choosing the correct time period is important to provide suitable context for the reader. *Example FT uses:* Share price movements, economic time series
 
+* Flowing Data: [11 Ways to Visualize Changes Over Time – A Guide](http://flowingdata.com/2010/01/07/11-ways-to-visualize-changes-over-time-a-guide/)
+
 #### Line 
 
 The standard way to show a changing time series. If data are irregular, consider markers to represent data points 
 
 * Chart Doctor: [A chart’s ability to mislead is off the scale](https://www.ft.com/content/3062d082-e3da-11e6-8405-9e5580d6e5fb)
+* Office for National Statistics: [Does the axis have to start at zero? (Part 1 – line charts)](https://blog.ons.digital/2016/06/27/does-the-axis-have-to-start-at-zero-part-1-line-charts/)
+* Quartz: [It's OK not to start your y-axis at zero](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
+* Vox: [Shut up about the y-axis. It should't always start at zero](https://www.youtube.com/watch?v=14VYnFhBKcY)
 * Emily Schuch: [How to Make a Line Chart that Doesn't Lie](http://emschuch.github.io/Planned-Parenthood/)
 
 #### Column 
@@ -164,6 +187,8 @@ The standard way to show a changing time series. If data are irregular, consider
 Columns work well for showing change over time - but usually best with only one series of data at a time.
 
 * Chart Doctor: [A chart’s ability to mislead is off the scale](https://www.ft.com/content/3062d082-e3da-11e6-8405-9e5580d6e5fb)
+* Office for National Statistics: [Does the axis have to start at zero? (Part 2 – bar charts)](https://blog.ons.digital/2016/07/19/does-the-axis-have-to-start-at-zero-part-2-bar-charts/)
+
 
 #### Line + column 
 
@@ -198,6 +223,7 @@ A great way of showing temporal patterns (daily, weekly, monthly) – at the exp
 Great when date and duration are key elements of the story in the data.
 
 * Chart Doctor: [Communicating with data: Timelines](https://www.ft.com/content/6f777c84-322b-11e6-ad39-3fee5ffe5b5b)
+* *Examples:* [_FT_](https://www.ft.com/content/e7591532-9338-11e6-a1dc-bdf38d484582)
 
 #### Circle timeline 
 
@@ -211,11 +237,13 @@ Another alternative to the circle timeline for showing series where there are bi
 
 Show how a single entity can bebroken down into its component elements. If the reader’s interest issolely in the size of the components,consider a magnitude-type chartinstead. *Example FT uses:* Fiscal budgets, company structures,national election results
 
+* Flowing Data: [9 Ways to Visualize Proportions – A Guide](http://flowingdata.com/2009/11/25/9-ways-to-visualize-proportions-a-guide/)
+
 #### Stacked column
 
 A simple way of showing part-to-whole relationships but can be difficult to read with more than a few components.
 
-* Robert Kosera: [Stacked bars are the worst](https://eagereyes.org/techniques/stacked-bars-are-the-worst)
+* Robert Kosara: [Stacked bars are the worst](https://eagereyes.org/techniques/stacked-bars-are-the-worst)
 
 #### Proportional stacked bar
 
@@ -314,7 +342,7 @@ An alternative to radar charts – again, the arrngement of the variables is imp
 
 ### Spatial
 
-Used only when precise locations orgeographical patterns in data aremore important to the reader thananything else. *Example FT uses:* Locator maps, population density,natural resource locations, naturaldisaster risk/impact, catchment areas,variation in election results
+Used only when precise locations orgeographical patterns in data aremore important to the reader thananything else. *Example FT uses:* Locator maps, population density,natural resource locations, naturaldisaster risk/impact, catchment areas, variation in election results
 
 * Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
 * Matthew Ericson: [When Maps Shouldn’t Be Maps](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/)
@@ -323,6 +351,10 @@ Used only when precise locations orgeographical patterns in data aremore importa
 #### Basic choropleth (rate/ratio)
 
 The standard approach for putting data on a map – should always be rates rather than totals and use a sensible base geography
+
+* Vox: [The bad map we see every presidential election](http://www.vox.com/2016/5/17/11686328/bad-election-map)
+* Vox: [This “bad” election map? It’s not so bad.](http://www.vox.com/2016/6/2/11828628/election-maps-hard)
+* UX•Blog: [Telling the truth](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
 
 #### Proportional symbol (count/magnitde)
 
@@ -351,6 +383,7 @@ Stretching and shrinking a map so that each area is sized according to a particu
 
 * Chart Doctor: [The search for a better US election map](https://www.ft.com/content/3685bf9e-a4cc-11e6-8b69-02899e8bd9d1)
 * 5W Blog: [The power of cartograms and creating them easily](https://5wvelascoblog.com/2016/10/27/the-power-of-cartograms-and-creating-them-easily/)
+* Vox: [The bad map we see every presidential election](https://www.youtube.com/watch?v=hlQE4IGFc5A)
 
 #### Dot density
 
@@ -368,9 +401,11 @@ Grid-based data values mapped with an intensity colour scale. As choropleth map 
 
 Show the reader volumes or intensity of movement between two or more states or conditions. These might belogical sequences or geographical locations. *Example FT uses:* Movement of funds, trade, migrants, lawsuits, information; relationship graphs.
 
-#### Sankey
+* RJ Andrews: [Picturing the Great Migration](https://medium.com/info-we-trust/picturing-the-great-migration-9e4b5a3eca8a)
 
-Shows changes in flows from one condition to at least one other; good for tracing the eventual outcome of a complex process.
+#### Sankey (aka river plot)
+
+Shows changes in flows from one condition to at least one other; good for tracing the eventual outcome of a complex process. 
 
 * Chart Doctor: [Data visualisation: it is not all about technology](https://www.ft.com/content/aba6c58e-5a8e-11e7-9bc8-8055f264aa8b)
 
@@ -384,7 +419,7 @@ A complex but powerful diagram which can illustrate 2-way flows (and net winner)
 
 #### Network
 
-Used for showing the strength and inter-connectedness of relationships of varying types.
+Used for showing the strength and inter-connectedness of relationships of varying types. 
 
 - - - 
 
@@ -407,6 +442,10 @@ Todo:
 * Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe))
 
 ### Map projections
+
+### Colour
+
+
 
 - - - 
 
