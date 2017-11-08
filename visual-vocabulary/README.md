@@ -3,7 +3,7 @@
 
 # Financial Times Visual Vocabulary
 
-A poster (available in [English](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf) or [Japanese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-JP.pdf)) and [web site](http://ft-interactive.github.io/visual-vocabulary/) to assist designers and journalists to select the optimal symbology for data visualisations, by the [Financial Times Visual Journalism Team](https://www.ft.com/visual-journalism).
+A poster (available in [English](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf), [Japanese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-JP.pdf), [traditional Chinese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-chinese-traditional.pdf) and [simplified Chinese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-chinese-simplified.pdf)) and [web site](http://ft-interactive.github.io/visual-vocabulary/) to assist designers and journalists to select the optimal symbology for data visualisations, by the [Financial Times Visual Journalism Team](https://www.ft.com/visual-journalism).
 
 The FT Visual Vocabulary is at the core of a newsroom-wide training session aimed at improving chart literacy. This learning resource is inspired by the [Graphic Continuum](https://policyviz.com/2014/09/09/graphic-continuum/) by Jon Schwabish and Severino Ribecca. This is not an attempt to teach everyone how to make charts, but how to recognise the opportunities to use them effectively alongside words.
 
