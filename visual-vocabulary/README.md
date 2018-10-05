@@ -1,6 +1,5 @@
 ![Financial Times Visual Vocabulary poster](poster.png)
 
-
 # Financial Times Visual Vocabulary
 
 A poster (available in [English](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf), [Japanese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-JP.pdf), [traditional Chinese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-chinese-traditional.pdf) and [simplified Chinese](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-chinese-simplified.pdf)) and [web site](http://ft-interactive.github.io/visual-vocabulary/) to assist designers and journalists to select the optimal symbology for data visualisations, by the [Financial Times Visual Journalism Team](https://www.ft.com/visual-journalism).
