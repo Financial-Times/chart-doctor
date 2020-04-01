@@ -235,7 +235,7 @@ Another alternative to the circle timeline for showing series where there are bi
 
 ### Part-to-whole
 
-Show how a single entity can bebroken down into its component elements. If the reader’s interest issolely in the size of the components,consider a magnitude-type chartinstead. *Example FT uses:* Fiscal budgets, company structures,national election results
+Show how a single entity can be broken down into its component elements. If the reader’s interest is solely in the size of the components, consider a magnitude-type chart instead. *Example FT uses:* Fiscal budgets, company structures, national election results
 
 * Flowing Data: [9 Ways to Visualize Proportions – A Guide](http://flowingdata.com/2009/11/25/9-ways-to-visualize-proportions-a-guide/)
 
